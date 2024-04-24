@@ -5,3 +5,17 @@ spring:
         jwt:
           issuer-uri: "https://jatinbalar.b2clogin.com/55515a48-54c0-43da-8441-b64331c10d4d/v2.0/"
           jwk-set-uri: "https://jatinbalar.b2clogin.com/jatinbalar.onmicrosoft.com/discovery/v2.0/keys?p=b2c_1_susi"
+  h2: 
+    console:
+      enabled: true  
+  datasource: 
+    url: jdbc:h2:mem:testdb 
+  jpa: 
+    defer-datasource-initialization: true
+  main: 
+    banner-mode: off    
+logging:
+  level: 
+    org: 
+      springframework: debug
+  pattern.console: "%d{MM-dd HH:mm:ss} - %logger{36} - %msg%n"
