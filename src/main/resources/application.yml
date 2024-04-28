@@ -3,8 +3,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: "https://jatinbalar.b2clogin.com/55515a48-54c0-43da-8441-b64331c10d4d/v2.0/"
-          jwk-set-uri: "https://jatinbalar.b2clogin.com/jatinbalar.onmicrosoft.com/discovery/v2.0/keys?p=b2c_1_susi"
+          issuer-uri: "https://jatinbalar1.b2clogin.com/29f84888-85d5-4d9a-958a-b730f55dd550/v2.0/"
+          jwk-set-uri: "https://jatinbalar1.b2clogin.com/jatinbalar1.onmicrosoft.com/discovery/v2.0/keys?p=b2c_1_susi"
   h2: 
     console:
       enabled: true  
