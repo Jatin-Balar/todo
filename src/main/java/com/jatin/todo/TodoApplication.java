@@ -30,6 +30,6 @@ public class TodoApplication extends SpringBootServletInitializer {
 //					.allowedOrigins("http://localhost:3000");
 //			}
 //		};
-	}
+//	}
 
 }
